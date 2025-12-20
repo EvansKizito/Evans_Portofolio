@@ -1,9 +1,9 @@
-# Hi, I'm [Nama Kamu] 👋
+# Hi, I'm Evans Kizito 👋
 ## Data Science & Analytics Portfolio
 
 Selamat datang di repositori portofolio saya! Di sini saya mendokumentasikan perjalanan saya dalam Data Science, mencakup proyek kompetisi (lomba), riset, dan tugas akademis.
 
-Saya memiliki ketertarikan khusus pada **[Sebutkan Minat, misal: Machine Learning, NLP, Time Series]** dan berpengalaman menggunakan **Python & R**.
+Saya memiliki ketertarikan khusus pada Machine Learning, NLP, Time Series, Computer Vision dan berpengalaman menggunakan **Python & R**.
 
 ---
 
@@ -15,24 +15,28 @@ Saya memiliki ketertarikan khusus pada **[Sebutkan Minat, misal: Machine Learnin
 
 ---
 
-## 🏆 Competition Projects (Lomba)
-
-Bagian ini berisi proyek-proyek yang saya kerjakan untuk berbagai kompetisi Data Science dan Statistika.
-
-### 1. [Nama Lomba/Kompetisi] - [Judul Proyek]
-> **Pencapaian:** *[Misal: Juara 1 / Top 5 Finalist / Peserta]* 🏅
+### 1. ANFORCOM DDSC 2025 - Hybrid Low-Parameter Models for Asta Cita Topics
+> **Pencapaian:** 🥉 Juara 3 (3rd Place)
 
 * **Deskripsi Masalah:**
-    Jelaskan singkat masalah yang coba diselesaikan. (Contoh: Memprediksi risiko kredit nasabah menggunakan data historis transaksi untuk mengurangi Non-Performing Loan).
+    Membangun model klasifikasi teks multi-kelas untuk mengategorikan opini publik terkait "Asta Cita" (8 pilar pembangunan Indonesia Emas 2045) dari media sosial[cite: 3, 12]. Tantangan utama adalah dataset yang sangat *imbalanced* (kelas minoritas seperti 'Hilirisasi' hanya 3.6%) dan *noisy* (bahasa tidak baku, campuran bahasa daerah, dan *truncated text*)[cite: 70, 71, 73, 104].
+
 * **Pendekatan/Metode:**
-    Jelaskan metode yang digunakan. (Contoh: Melakukan cleaning data, Feature Engineering menggunakan PCA, dan modeling menggunakan XGBoost dengan hyperparameter tuning).
+    Kami menerapkan pendekatan *Data-Centric AI* dan *Hybrid Modeling*:
+    * **Data Cleaning:** Menggunakan **Cleanlab (Confidence Learning)** untuk mendeteksi dan membersihkan label yang salah (noisy labels) pada data latih secara otomatis.
+    * **Augmentation:** Menerapkan **Pseudo-Labeling** pada data tes dengan *confidence* tinggi untuk memperkaya data latih[cite: 45, 322].
+    * **Modeling:** Menggunakan arsitektur Hybrid **IndoBERT-Tweet (Fine-tuned)** yang di-ensemble dengan Logistic Regression (Weighted Average 0.7:0.3)[cite: 60, 315].
+    * **Imbalance Handling:** Menggunakan **Focal Loss** dan **Stratified K-Fold** untuk meningkatkan performa pada kelas minoritas[cite: 53, 356].
+
 * **Hasil/Insight:**
-    Sebutkan hasil metriknya. (Contoh: Model mencapai F1-Score sebesar 0.89 dan berhasil mengidentifikasi fitur 'Umur' sebagai faktor risiko utama).
+    * [cite_start]Model berhasil meningkatkan **Balanced Accuracy** secara drastis dari **55.3% (Baseline)** menjadi **95.1% (Final Model)**[cite: 395].
+    * [cite_start]Macro F1-Score mencapai **0.954**, membuktikan model mampu mengenali topik minoritas (seperti Hilirisasi dan Pemerataan) dengan sangat baik meskipun datanya sedikit[cite: 395, 487].
+    * [cite_start]Sistem ini dapat digunakan pemerintah untuk monitoring isu prioritas secara *real-time*[cite: 501].
 
 🔗 **Links:**
-| 📒 Notebook | 📄 Makalah (PDF) | 📂 Dataset |
+| 📒 Notebook | 📄 Makalah/Slide (PDF) | 📂 Dataset |
 | :---: | :---: | :---: |
-| [View Notebook](./folder_proyek/notebook.ipynb) | [Read Paper](./folder_proyek/laporan.pdf) | [Dataset Source](link_ke_kaggle_atau_sumber) |
+| [View Notebook](./ANFORCOM_2025/notebook.ipynb) | [View Presentation](./ANFORCOM_2025/modepesawat_ppt.pdf) | [Dataset Source](link_jika_ada) |
 
 ---
 
