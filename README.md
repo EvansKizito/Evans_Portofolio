@@ -36,7 +36,7 @@ Saya memiliki ketertarikan khusus pada Machine Learning, NLP, Time Series, Compu
 🔗 **Links:**
 | 📒 Notebook | 📄 Makalah/Slide (PDF) | 📂 Dataset |
 | :---: | :---: | :---: |
-| [View Notebook](https://colab.research.google.com/drive/1XyMuCd5p3tSz7D6tsvoMZsDvFjM5TJbs?usp=sharing) | [View Presentation](./ANFORCOM_2025/modepesawat_ppt.pdf) | [Dataset Source](link_jika_ada) |
+| [View Notebook](https://colab.research.google.com/drive/1XyMuCd5p3tSz7D6tsvoMZsDvFjM5TJbs?usp=sharing) | [View Presentation](DDSCUNDIP.pdf) | [Dataset Source]([link_jika_ada](https://www.kaggle.com/competitions/penyisihan-ddsc25/data)) |
 
 ---
 
