@@ -29,14 +29,14 @@ Saya memiliki ketertarikan khusus pada Machine Learning, NLP, Time Series, Compu
     * **Imbalance Handling:** Menggunakan **Focal Loss** dan **Stratified K-Fold** untuk meningkatkan performa pada kelas minoritas.
 
 * **Hasil/Insight:**
-    * [cite_start]Model berhasil meningkatkan **Balanced Accuracy** secara drastis dari **55.3% (Baseline)** menjadi **95.1% (Final Model)**.
-    * [cite_start]Macro F1-Score mencapai **0.954**, membuktikan model mampu mengenali topik minoritas (seperti Hilirisasi dan Pemerataan) dengan sangat baik meskipun datanya sedikit.
-    * [cite_start]Sistem ini dapat digunakan pemerintah untuk monitoring isu prioritas secara *real-time*.
+    * Model berhasil meningkatkan **Balanced Accuracy** secara drastis dari **55.3% (Baseline)** menjadi **95.1% (Final Model)**.
+    * Macro F1-Score mencapai **0.954**, membuktikan model mampu mengenali topik minoritas (seperti Hilirisasi dan Pemerataan) dengan sangat baik meskipun datanya sedikit.
+    * Sistem ini dapat digunakan pemerintah untuk monitoring isu prioritas secara *real-time*.
 
 🔗 **Links:**
 | 📒 Notebook | 📄 Makalah/Slide (PDF) | 📂 Dataset |
 | :---: | :---: | :---: |
-| [View Notebook](https://colab.research.google.com/drive/1XyMuCd5p3tSz7D6tsvoMZsDvFjM5TJbs?usp=sharing) | [View Presentation](DDSCUNDIP.pdf) | [Dataset Source]([link_jika_ada](https://www.kaggle.com/competitions/penyisihan-ddsc25/data)) |
+| [View Notebook](https://colab.research.google.com/drive/1XyMuCd5p3tSz7D6tsvoMZsDvFjM5TJbs?usp=sharing) | [View Presentation](DDSCUNDIP.pdf) | [Dataset Source](link_jika_ada](https://www.kaggle.com/competitions/penyisihan-ddsc25/data) |
 
 ---
 
