@@ -19,19 +19,19 @@ Saya memiliki ketertarikan khusus pada Machine Learning, NLP, Time Series, Compu
 > **Pencapaian:** 🥉 Juara 3 (3rd Place)
 
 * **Deskripsi Masalah:**
-    Membangun model klasifikasi teks multi-kelas untuk mengategorikan opini publik terkait "Asta Cita" (8 pilar pembangunan Indonesia Emas 2045) dari media sosial[cite: 3, 12]. Tantangan utama adalah dataset yang sangat *imbalanced* (kelas minoritas seperti 'Hilirisasi' hanya 3.6%) dan *noisy* (bahasa tidak baku, campuran bahasa daerah, dan *truncated text*)[cite: 70, 71, 73, 104].
+    Membangun model klasifikasi teks multi-kelas untuk mengategorikan opini publik terkait "Asta Cita" (8 pilar pembangunan Indonesia Emas 2045) dari media sosial. Tantangan utama adalah dataset yang sangat *imbalanced* (kelas minoritas seperti 'Hilirisasi' hanya 3.6%) dan *noisy* (bahasa tidak baku, campuran bahasa daerah, dan *truncated text*).
 
 * **Pendekatan/Metode:**
     Kami menerapkan pendekatan *Data-Centric AI* dan *Hybrid Modeling*:
     * **Data Cleaning:** Menggunakan **Cleanlab (Confidence Learning)** untuk mendeteksi dan membersihkan label yang salah (noisy labels) pada data latih secara otomatis.
-    * **Augmentation:** Menerapkan **Pseudo-Labeling** pada data tes dengan *confidence* tinggi untuk memperkaya data latih[cite: 45, 322].
-    * **Modeling:** Menggunakan arsitektur Hybrid **IndoBERT-Tweet (Fine-tuned)** yang di-ensemble dengan Logistic Regression (Weighted Average 0.7:0.3)[cite: 60, 315].
-    * **Imbalance Handling:** Menggunakan **Focal Loss** dan **Stratified K-Fold** untuk meningkatkan performa pada kelas minoritas[cite: 53, 356].
+    * **Augmentation:** Menerapkan **Pseudo-Labeling** pada data tes dengan *confidence* tinggi untuk memperkaya data latih.
+    * **Modeling:** Menggunakan arsitektur Hybrid **IndoBERT-Tweet (Fine-tuned)** yang di-ensemble dengan Logistic Regression (Weighted Average 0.7:0.3).
+    * **Imbalance Handling:** Menggunakan **Focal Loss** dan **Stratified K-Fold** untuk meningkatkan performa pada kelas minoritas.
 
 * **Hasil/Insight:**
-    * [cite_start]Model berhasil meningkatkan **Balanced Accuracy** secara drastis dari **55.3% (Baseline)** menjadi **95.1% (Final Model)**[cite: 395].
-    * [cite_start]Macro F1-Score mencapai **0.954**, membuktikan model mampu mengenali topik minoritas (seperti Hilirisasi dan Pemerataan) dengan sangat baik meskipun datanya sedikit[cite: 395, 487].
-    * [cite_start]Sistem ini dapat digunakan pemerintah untuk monitoring isu prioritas secara *real-time*[cite: 501].
+    * [cite_start]Model berhasil meningkatkan **Balanced Accuracy** secara drastis dari **55.3% (Baseline)** menjadi **95.1% (Final Model)**.
+    * [cite_start]Macro F1-Score mencapai **0.954**, membuktikan model mampu mengenali topik minoritas (seperti Hilirisasi dan Pemerataan) dengan sangat baik meskipun datanya sedikit.
+    * [cite_start]Sistem ini dapat digunakan pemerintah untuk monitoring isu prioritas secara *real-time*.
 
 🔗 **Links:**
 | 📒 Notebook | 📄 Makalah/Slide (PDF) | 📂 Dataset |
