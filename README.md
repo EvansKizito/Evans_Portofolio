@@ -36,7 +36,7 @@ Saya memiliki ketertarikan khusus pada Machine Learning, NLP, Time Series, Compu
 🔗 **Links:**
 | 📒 Notebook | 📄 Makalah/Slide (PDF) | 📂 Dataset |
 | :---: | :---: | :---: |
-| [View Notebook](./ANFORCOM_2025/notebook.ipynb) | [View Presentation](./ANFORCOM_2025/modepesawat_ppt.pdf) | [Dataset Source](link_jika_ada) |
+| [View Notebook](mode_pesawat_UniversitasIndonesia.ipynb) | [View Presentation](./ANFORCOM_2025/modepesawat_ppt.pdf) | [Dataset Source](link_jika_ada) |
 
 ---
 
