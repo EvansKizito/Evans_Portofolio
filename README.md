@@ -1,9 +1,9 @@
 # Hi, I'm Evans Kizito 👋
 ## Data Science & Analytics Portfolio
 
-Selamat datang di repositori portofolio saya! Di sini saya mendokumentasikan perjalanan saya dalam Data Science, mencakup proyek kompetisi (lomba), riset, dan tugas akademis.
+Welcome to my portfolio repository! Here, I document my journey in Data Science, covering data competitions, research, and academic projects.
 
-Saya memiliki ketertarikan khusus pada Machine Learning, NLP, Time Series, Computer Vision dan berpengalaman menggunakan **Python & R**.
+I have a strong interest in **Machine Learning, NLP, Time Series, and Computer Vision**, with hands-on experience using **Python & R**.
 
 ---
 
@@ -56,7 +56,7 @@ Saya memiliki ketertarikan khusus pada Machine Learning, NLP, Time Series, Compu
 * **Results & Insights:**
     * Successfully built a forecasting engine capable of predicting sales for the next 30 days with stability checks (Eigenvalue analysis).
     * Identified significant causal relationships suggesting cannibalization, providing actionable insights for portfolio optimization.
-    * [cite_start]The model offered a strategic "Innovation Radar" to pinpoint high-growth products versus those in decline[cite: 657].
+    * The model offered a strategic "Innovation Radar" to pinpoint high-growth products versus those in decline.
 
 🔗 **Links:**
 | 📒 Notebook | 📄 Case Booklet | 📂 Dataset |
