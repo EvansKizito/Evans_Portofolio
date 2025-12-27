@@ -61,7 +61,7 @@ I have a strong interest in **Machine Learning, NLP, Time Series, and Computer V
 🔗 **Links:**
 | 📒 Notebook | 📄 Case Booklet | 📂 Dataset |
 | :---: | :---: | :---: |
-| [View Code](RQ2_VAR_VECM_Complete_Implementation.ipynb) | [Read Case Study](BOOKLET_STUDY_CASE_DSC.pdf) | [Dataset Source](bit.ly/DatasetDSCGelarRasa2025) |
+| [View Code](RQ2_VAR_VECM_Complete_Implementation.ipynb) | [Read Case Study](STUDYCASEGELAR.pdf) | [Dataset Source](bit.ly/DatasetDSCGelarRasa2025) |
 
 ---
 
