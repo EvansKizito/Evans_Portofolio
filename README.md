@@ -40,6 +40,31 @@ Saya memiliki ketertarikan khusus pada Machine Learning, NLP, Time Series, Compu
 
 ---
 
+### 2. Gelar Rasa 2025 - FMCG Sales Forecasting & Cannibalization Analysis
+> **Achievement:** *Top 10*
+
+* **Problem Description:**
+    Addressed the challenge of forecasting sales for FMCG Personal Care products while analyzing market dynamics. The primary goal was to predict future sales trends and investigate **product cannibalization**—determining if new product launches negatively impacted the sales of existing products in the same category.
+
+* **Approach & Methodology:**
+    Developed a robust Multivariate Time Series pipeline using **VAR (Vector Autoregression)** and **VECM (Vector Error Correction Model)** to capture interdependencies between products.
+    * **Feature Engineering:** Aggregated daily revenue and integrated **Sentiment Analysis (VADER)** from customer reviews as exogenous variables.
+    * **Rigorous Statistical Testing:** Conducted Stationarity tests (ADF & KPSS), Lag Length selection (AIC/BIC), and **Johansen Cointegration Test** to determine the optimal model (VAR vs. VECM).
+    * **Causal Inference:** Applied **Granger Causality** tests to statistically validate cannibalization effects between new and old products.
+    * **Dynamic Analysis:** Utilized **Impulse Response Functions (IRF)** and **Forecast Error Variance Decomposition (FEVD)** to simulate market shocks and understand variance contributions.
+
+* **Results & Insights:**
+    * Successfully built a forecasting engine capable of predicting sales for the next 30 days with stability checks (Eigenvalue analysis).
+    * Identified significant causal relationships suggesting cannibalization, providing actionable insights for portfolio optimization.
+    * [cite_start]The model offered a strategic "Innovation Radar" to pinpoint high-growth products versus those in decline[cite: 657].
+
+🔗 **Links:**
+| 📒 Notebook | 📄 Case Booklet | 📂 Dataset |
+| :---: | :---: | :---: |
+| [View Code](./GelarRasa_2025/forecasting_pipeline.ipynb) | [Read Case Study](./GelarRasa_2025/booklet.pdf) | [Dataset Source](bit.ly/DatasetDSCGelarRasa2025) |
+
+---
+
 ### 2. [Nama Lomba/Kompetisi] - [Judul Proyek]
 > **Pencapaian:** *[Misal: Finalis Nasional]*
 
