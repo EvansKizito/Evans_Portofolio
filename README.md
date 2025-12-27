@@ -16,25 +16,25 @@ Saya memiliki ketertarikan khusus pada Machine Learning, NLP, Time Series, Compu
 ---
 
 ### 1. ANFORCOM DDSC 2025 - Hybrid Low-Parameter Models for Asta Cita Topics
-> **Pencapaian:** 🥉 Juara 3 (3rd Place)
+> **Achievement:** 🥉 3rd Place Winner
 
-* **Deskripsi Masalah:**
-    Membangun model klasifikasi teks multi-kelas untuk mengategorikan opini publik terkait "Asta Cita" (8 pilar pembangunan Indonesia Emas 2045) dari media sosial. Tantangan utama adalah dataset yang sangat *imbalanced* (kelas minoritas seperti 'Hilirisasi' hanya 3.6%) dan *noisy* (bahasa tidak baku, campuran bahasa daerah, dan *truncated text*).
+* **Problem Description:**
+    Developed a multi-class text classification model to analyze public sentiment regarding "Asta Cita" (the 8 development pillars of Indonesia's Golden Era 2045) on social media. The primary challenges were a highly **imbalanced dataset** (minority classes like 'Hilirisasi' accounted for only 3.6%) and **noisy data** (slang, mixed local languages, and truncated text).
 
-* **Pendekatan/Metode:**
-    Kami menerapkan pendekatan *Data-Centric AI* dan *Hybrid Modeling*:
-    * **Data Cleaning:** Menggunakan **Cleanlab (Confidence Learning)** untuk mendeteksi dan membersihkan label yang salah (noisy labels) pada data latih secara otomatis.
-    * **Augmentation:** Menerapkan **Pseudo-Labeling** pada data tes dengan *confidence* tinggi untuk memperkaya data latih.
-    * **Modeling:** Menggunakan arsitektur Hybrid **IndoBERT-Tweet (Fine-tuned)** yang di-ensemble dengan Logistic Regression (Weighted Average 0.7:0.3).
-    * **Imbalance Handling:** Menggunakan **Focal Loss** dan **Stratified K-Fold** untuk meningkatkan performa pada kelas minoritas.
+* **Approach & Methodology:**
+    We adopted a **Data-Centric AI** and **Hybrid Modeling** strategy to address data scarcity and noise:
+    * **Data Cleaning:** Implemented **Cleanlab (Confidence Learning)** to automatically detect and correct noisy labels in the training set.
+    * **Augmentation:** Applied **Pseudo-Labeling** to high-confidence test samples to expand the training data.
+    * **Modeling:** Engineered a Hybrid Architecture combining a **Fine-tuned IndoBERT-Tweet** model with Logistic Regression (Weighted Ensemble 0.7:0.3).
+    * **Imbalance Handling:** Utilized **Focal Loss** and **Stratified K-Fold Cross-Validation** to optimize performance on minority classes.
 
-* **Hasil/Insight:**
-    * Model berhasil meningkatkan **Balanced Accuracy** secara drastis dari **55.3% (Baseline)** menjadi **95.1% (Final Model)**.
-    * Macro F1-Score mencapai **0.954**, membuktikan model mampu mengenali topik minoritas (seperti Hilirisasi dan Pemerataan) dengan sangat baik meskipun datanya sedikit.
-    * Sistem ini dapat digunakan pemerintah untuk monitoring isu prioritas secara *real-time*.
+* **Results & Insights:**
+    * Successfully improved **Balanced Accuracy** from a baseline of **55.3%** to **95.1%** in the final model.
+    * Achieved a **Macro F1-Score of 0.954**, proving the model's robustness in detecting minority topics (e.g., Downstreaming/Hilirisasi) despite limited data.
+    * The solution provides a reliable tool for the government to monitor strategic issues in real-time.
 
 🔗 **Links:**
-| 📒 Notebook | 📄 Makalah/Slide (PDF) | 📂 Dataset |
+| 📒 Notebook | 📄 Paper/Slides (PDF) | 📂 Dataset |
 | :---: | :---: | :---: |
 | [View Notebook](https://colab.research.google.com/drive/1XyMuCd5p3tSz7D6tsvoMZsDvFjM5TJbs?usp=sharing) | [View Presentation](DDSCUNDIP.pdf) | [Dataset Source](https://www.kaggle.com/competitions/penyisihan-ddsc25/data) |
 
