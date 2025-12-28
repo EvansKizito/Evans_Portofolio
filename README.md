@@ -90,9 +90,9 @@ Kami merancang pipeline berbasis **document representation + feature engineering
 - Pipeline terbukti **komputasi-efisien**, namun tetap membuka peluang pengembangan lanjutan menggunakan **Graph Neural Networks (GNN)** untuk memanfaatkan struktur jaringan sitasi secara lebih komprehensif.
 
 🔗 **Links**
-| 📒 Notebook | 📄 Paper/Slides (PDF) | 📂 Presentation |
+| 📒 Notebook | 📄 Paper (PDF) | 🎥 Presentation (Slides) |
 | :---: | :---: | :---: |
-| [Notebook](main.ipynb) | [Competition Report](DSC25125_Manusia Pojok_Laporan.pdf) | [Competition Report](DSC25125_Manusia Pojok_Preentasi.pdf) |
+| [Notebook](main.ipynb) | [Competition Report](DSC25125_Manusia%20Pojok_Laporan.pdf) | [Presentation Slides](DSC25125_Manusia%20Pojok_Presentasi.pdf) |
 
 --
 
