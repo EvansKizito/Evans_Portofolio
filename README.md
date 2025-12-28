@@ -65,6 +65,37 @@ I have a strong interest in **Machine Learning, NLP, Time Series, and Computer V
 
 ---
 
+### 3. GammaFest IPB 2025 – Citation Network Link Prediction  
+> **Achievement:** 🏅 Top 5 Finalist
+
+**Problem Description**  
+Kompetisi ini berfokus pada pembangunan model **link prediction** untuk memprediksi hubungan kutipan antar-paper dalam sebuah **citation network**. Tantangan utama terletak pada **ketidakseimbangan label** serta kebutuhan menangkap relasi semantik antar-dokumen secara akurat untuk mendukung sistem rekomendasi literatur ilmiah. Evaluasi model menggunakan **Matthews Correlation Coefficient (MCC)**.
+
+**Approach & Methodology**  
+Kami merancang pipeline berbasis **document representation + feature engineering + gradient boosting classifier**:
+
+- **Document Embedding:**  
+  Doc2Vec untuk *Full-Text*, serta **FastText & SPECTER (BERT-based)** untuk *Title & Concepts* agar makna semantik akademik dapat ditangkap lebih baik.
+- **Vector & Similarity Features:**  
+  Cosine / Euclidean / Manhattan / Pearson similarity, ditambah **vector-difference statistics & angular projection** untuk merepresentasikan relasi antar-dokumen.
+- **Temporal Feature Engineering:**  
+  Menambahkan **selisih tahun publikasi** sebagai fitur kronologis pola sitasi.
+- **Modeling:**  
+  Eksperimen multi-model dan menetapkan **CatBoost (tuned)** dengan kombinasi  
+  **Doc2Vec + FastText + SPECTER + FE Metadata + FE Vector Embeddings** sebagai model terbaik.
+
+**Results & Insights**
+- Model terbaik mencapai **MCC = 0.568** pada dataset yang **highly-imbalanced**.
+- Kombinasi **embedding + engineered similarity features** memberi peningkatan signifikan dibanding baseline TF-IDF.
+- Pipeline terbukti **komputasi-efisien**, namun tetap membuka peluang pengembangan lanjutan menggunakan **Graph Neural Networks (GNN)** untuk memanfaatkan struktur jaringan sitasi secara lebih komprehensif.
+
+🔗 **Links**
+| 📒 Notebook | 📄 Paper/Slides (PDF) | 📂 Presentation |
+| :---: | :---: | :---: |
+| [Notebook](main.ipynb) | [Competition Report](DSC25125_Manusia Pojok_Laporan.pdf) | [Competition Report](DSC25125_Manusia Pojok_Preentasi.pdf) |
+
+--
+
 ### 2. [Nama Lomba/Kompetisi] - [Judul Proyek]
 > **Pencapaian:** *[Misal: Finalis Nasional]*
 
