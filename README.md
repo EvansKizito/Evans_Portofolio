@@ -69,25 +69,25 @@ I have a strong interest in **Machine Learning, NLP, Time Series, and Computer V
 > **Achievement:** 🏅 Top 5 Finalist
 
 **Problem Description**  
-Kompetisi ini berfokus pada pembangunan model **link prediction** untuk memprediksi hubungan kutipan antar-paper dalam sebuah **citation network**. Tantangan utama terletak pada **ketidakseimbangan label** serta kebutuhan menangkap relasi semantik antar-dokumen secara akurat untuk mendukung sistem rekomendasi literatur ilmiah. Evaluasi model menggunakan **Matthews Correlation Coefficient (MCC)**.
+This competition focused on building a **link prediction model** to identify citation relationships between research papers within a **citation network**. The main challenges included **highly-imbalanced labels** and the need to capture **semantic similarity across documents** to support an intelligent scientific literature recommendation system. Model performance was evaluated using the **Matthews Correlation Coefficient (MCC)**.
 
 **Approach & Methodology**  
-Kami merancang pipeline berbasis **document representation + feature engineering + gradient boosting classifier**:
+We designed a pipeline integrating **document representation, similarity-based feature engineering, and gradient-boosting classifiers**:
 
 - **Document Embedding:**  
-  Doc2Vec untuk *Full-Text*, serta **FastText & SPECTER (BERT-based)** untuk *Title & Concepts* agar makna semantik akademik dapat ditangkap lebih baik.
+  Doc2Vec for *full-text documents*, and **FastText & SPECTER (BERT-based)** for *titles and concepts* to capture academic semantic meaning more effectively.
 - **Vector & Similarity Features:**  
-  Cosine / Euclidean / Manhattan / Pearson similarity, ditambah **vector-difference statistics & angular projection** untuk merepresentasikan relasi antar-dokumen.
+  Cosine / Euclidean / Manhattan / Pearson similarity, enriched with **vector-difference statistics and angular projection features** to represent inter-document relationships.
 - **Temporal Feature Engineering:**  
-  Menambahkan **selisih tahun publikasi** sebagai fitur kronologis pola sitasi.
+  Publication-year difference was added to model **chronological citation dynamics**.
 - **Modeling:**  
-  Eksperimen multi-model dan menetapkan **CatBoost (tuned)** dengan kombinasi  
-  **Doc2Vec + FastText + SPECTER + FE Metadata + FE Vector Embeddings** sebagai model terbaik.
+  We conducted multi-model experiments and selected **CatBoost (tuned)** with the combined feature set  
+  **Doc2Vec + FastText + SPECTER + FE Metadata + FE Vector Embeddings** as the best-performing model.
 
 **Results & Insights**
-- Model terbaik mencapai **MCC = 0.568** pada dataset yang **highly-imbalanced**.
-- Kombinasi **embedding + engineered similarity features** memberi peningkatan signifikan dibanding baseline TF-IDF.
-- Pipeline terbukti **komputasi-efisien**, namun tetap membuka peluang pengembangan lanjutan menggunakan **Graph Neural Networks (GNN)** untuk memanfaatkan struktur jaringan sitasi secara lebih komprehensif.
+- The final model achieved **MCC = 0.568** on a highly-imbalanced dataset.
+- The combination of **semantic embeddings and engineered similarity features** provided a significant improvement over TF-IDF baselines.
+- The pipeline is **computationally efficient**, while still opening opportunities for future enhancements using **Graph Neural Networks (GNNs)** to better exploit global citation-graph structure.
 
 🔗 **Links**
 | 📒 Notebook | 📄 Paper (PDF) | 🎥 Presentation (Slides) |
