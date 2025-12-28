@@ -94,7 +94,38 @@ We designed a pipeline integrating **document representation, similarity-based f
 | :---: | :---: | :---: |
 | [Notebook](main.ipynb) | [Competition Report](DSC25125_Manusia%20Pojok_Laporan.pdf) | [Presentation Slides](DSC25125_Manusia%20Pojok_Presentasi.pdf) |
 
---
+---
+
+### 4. DSC LOGIKA UI 2025 – Nusantara Traditional House Image Classification  
+> **Achievement:** 🥇 Ranked #1 in Qualification Round (Highest Macro F1-Score)  
+> *(Did not place in the final round due to an incomplete submission report — valuable learning experience in competition delivery & documentation.)*
+
+**Problem Description**  
+This competition challenged participants to build a **computer vision model** capable of classifying images of Indonesian traditional houses across multiple cultural regions. The dataset contained thousands of images with variations in lighting, viewpoint, occlusion, and class imbalance. Models were evaluated using **Macro F1-Score**, prioritizing balanced performance across all classes.
+
+**Approach & Methodology**  
+Our solution adopted a **Deep Learning + data-centric pipeline** with strong emphasis on dataset integrity and robustness:
+
+- **Pre-processing & Data Cleaning:**  
+  Near-duplicate removal using **Perceptual Hashing (pHash)**, cross-class conflict filtering, and **train–test leakage prevention** to ensure fair generalization.  
+- **Augmentation & Regularization:**  
+  Albumentations pipeline, **MixUp**, Label Smoothing, and **class-balanced sampling** to improve minority-class representation.  
+- **Modeling:**  
+  Fine-tuning **EVA-02 (Vision Transformer family, ViT-based)** with **Focal Loss**, Stratified 5-Fold Cross-Validation, and **mean-ensemble inference**.
+- **Why EVA-02?**  
+  Strong global feature representation, robustness to visual variation, and superior performance compared to CNN baselines (EfficientNet, ConvNeXt, Swin).
+
+**Results & Insights**
+- Achieved **the highest Macro F1-Score in the qualification round**, ranking **1st place on the leaderboard**.
+- Demonstrated significant improvement over baseline CNN models through **smart cleaning + transformer-based modeling**.
+- The final round submission did not score due to an **incomplete report file**, highlighting the importance of **end-to-end competition rigor (model + documentation + delivery)** — a key professional takeaway.
+
+🔗 **Links**
+| 📒 Notebook / Code | 📄 Qualification Report (PDF) | 🎥 Presentation Slides |
+| :---: | :---: | :---: |
+| [Notebook](DSC0075_wets%20belom%20dicoba_Notebook.ipynb) | [Technical Report](DSC0075_wets%20belom%20dicoba_LaporanAkhir(1).pdf) | [Final Presentation](DSC0075_wets%20belom%20dicoba_Presentasi%20(1).pdf) |
+
+---
 
 ### 2. [Nama Lomba/Kompetisi] - [Judul Proyek]
 > **Pencapaian:** *[Misal: Finalis Nasional]*
