@@ -127,36 +127,6 @@ Our solution adopted a **Deep Learning + data-centric pipeline** with strong emp
 
 ---
 
-### 2. [Nama Lomba/Kompetisi] - [Judul Proyek]
-> **Pencapaian:** *[Misal: Finalis Nasional]*
-
-* **Deskripsi Masalah:**
-    [Tulis deskripsi singkat di sini...]
-* **Pendekatan/Metode:**
-    [Tulis metode/algoritma yang digunakan di sini...]
-* **Hasil/Insight:**
-    [Tulis hasil akurasi atau insight bisnis di sini...]
-
-🔗 **Links:**
-- [📒 Jupyter Notebook](./path/to/notebook.ipynb)
-- [📄 Makalah Lengkap (PDF)](./path/to/paper.pdf)
-
----
-
-## 📚 Academic & Personal Projects (Tugas/Mandiri)
-
-Berikut adalah proyek terpilih dari tugas kuliah dan eksplorasi mandiri.
-
-### [Nama Mata Kuliah/Topik] - [Judul Tugas]
-* **Deskripsi:** Penjelasan singkat tentang tugas atau objektif analisis.
-* **Metode:** Algoritma atau teknik statistik yang digunakan.
-* **Tech Stack:** Python (Pandas, Matplotlib).
-* **Akses File:**
-    * [Link ke Code/Notebook](./tugas1/analysis.ipynb)
-    * [Link ke Laporan PDF](./tugas1/report.pdf)
-
----
-
 ## 📫 Contact Me
 
 Jika Anda ingin berdiskusi tentang proyek ini atau peluang kolaborasi, silakan hubungi saya:
