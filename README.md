@@ -131,9 +131,9 @@ Our solution adopted a **Deep Learning + data-centric pipeline** with strong emp
 
 Jika Anda ingin berdiskusi tentang proyek ini atau peluang kolaborasi, silakan hubungi saya:
 
-* **LinkedIn:** [Link LinkedIn Kamu]
-* **Email:** [Email Kamu]
-* **Portfolio Website:** [Link jika ada]
+* **LinkedIn:** [(https://www.linkedin.com/in/evans-kizito/)]
+* **Email:** [evan.naibaho@gmail.com]
+* **Portfolio Website:** [https://github.com/EvansKizito/Evans_Portofolio/]
 
 ---
 *Repository ini diperbarui secara berkala.*
